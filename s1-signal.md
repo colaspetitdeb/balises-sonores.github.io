@@ -13,4 +13,5 @@ Pour celle de Clermont appuyer sur le bouton déclenche  le signal un court inst
 le signal universelle est :
 
 -_ _ -_ _ -_ _ _ _ _-_ _ _ _ _ _ _ _ _ _
-![image de fréquence](fréquance.png) 
+
+![image de frequence](frequence.png) 
