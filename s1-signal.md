@@ -4,7 +4,7 @@ sur 3 télécommandes nous avons étudier le signal de 2 d'entre elles. on a rem
 en effet les télécommandes envoyant une fréquance spécifique au balises déstiner au non voyant et mal voyant sont soumises a des normes.
 
 par exemple il faut que le signal déclenchant " stop " provoque un son plus fort que celui d'avancer. les télécommandes doivent pouvoir envoyer le signal " signal universelle " .
-![norme de son](son balise.png) 
+![norme de son](son-balise.png) 
 
 les deux télécommandes on ce signal, celle de Clermont a trois boutons et le premier utilise ce signal universelle alors que celle de Riom n'a qu'un bouton qui utilise cette fréquance. 
 
