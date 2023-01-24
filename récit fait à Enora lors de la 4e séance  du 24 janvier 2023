@@ -1,0 +1,58 @@
+Avec Enora, Anaé, Nils
+
+Les balises sonores, de quoi s’agit-il ? 
+Ça peut être un signal sonore simple, par exemple une sonnerie, mais nous avons préféré faire une phrase. La problématique de notre atelier est que, pour recevoir du public dans notre atelier, nous avons une adresse qui conduit à une porte non utilisable. De plus, il y a une marche difficile à voir… C’est donc compliqué d’accéder au fablab des petits debs. 
+- c’est galère de se retrouver au lycée aussi
+- comment donner des informations utiles aux malvoyants ? Il y a des signes au sol, des bandes podotactiles, d’éveil, dans la rue. Nous nous sommes concentrés sur les balises, qui existent sur les feux sonores. Ils sont équipés d’une télécommande qui active les balises sur les feux, pour indiquer s’il est vert ou non
+- tous les feux sont équipés ?
+- non, pas tous. On s’est promenés dans la ville de Riom et on a activé les bornes de la ville.
+- c’est une norme mondiale ?
+- en tout cas valable en france. On a comparé des télécommandes riomoises et clermontoises. Puis on a analysé le signal.
+- pour signaler quoi ?
+- celle que nous concevons indique qu’on est arrivés à la bonne adresse ; peut-être une autre balise sera installée sur la « mauvaise » porte aussi.
+- c’est quoi le fablab ?
+- c’est là où on construit les balises ; c’est place gaillard. C’est un laboratoire de fabrication numérique. Mais on peut aussi en placer ailleurs, par exemple dans le lycée.
+- je crois qu’il y en  un à Figeac.
+- par exemple sur le lycée, il y a une grande cour : c’est difficile de s’y orienter, on ne peut pas utiliser des indications de type N/S ou « rue truc », alors on utilise le son comme guide et repère. Ces balises existent déjà, mais on avait envie de les refabriquer pour comprendre comment ça marche, et inventer d’autres utilisations, ou d’autres améliorations.
+- il paraît que Lea sent la chaleur des gens… C’est à vérifier…
+- le sens c’est l’« ecolocation » ?
+- les dauphins, les chauve souris ont aussi d’autres moyens de se repérer dans l’espace.
+
+Recap des séances : 
+1-
+on s’est baladés dans Riom et on a utilisé les télécommandes : on ne connaissait pas cet objet. 
+On a aussi parlé de l’application OSM (open street map) : une carte du monde à laquelle tout le monde peut contribuer en ajoutant des informations ; on a utilisé aussi « streetcomplete » : taille des rues, équipements, ilôts… pour préparer son trajet. 
+
+2- 
+on a découvert les machines du fablab (imprimantes 3D, découpeuse laser) : on a bidouillé les logiciels qui commandent ces machines. 
+On a aussi fait le premier enregistrement de message pour la future balise : le message, et des petits oiseaux. Pour quoi faire ? Pour que ça soit plus joli ? Et plus chaleureux…
+on a étudié les composants des balises
+
+3-
+séance plus technique : on a soudé, construit une télécommande et un récepteur, et on les a testé. Et vérifié que ça marche depuis une distance suffisante
+on a imprimé le dôme de l’antenne
+on a démonté des boites en métal, qu’on avait récupéré 
+on a perçé les boîtes et ajouté un interupteur : un moyen supplémentaire d’utiliser les balises, qui comporte donc un bouton qui délivre la liste des associations présentes, et les horaires et contact de la personne qui fait l’accueil. Si elle allume l’interupteur en arrivant, le msg serait « entrez, Ninon est là pour vous renseigner » ; en partant, elle éteint et le msg est alors « contactez Ninon au 06.etc. »
+
+Description des éléments et branchements : 
+    1. émetteru recépteur / antenne
+    2. piles / batterie ou accès câble
+    3. microcontrôleur : on peut le programmer ; il a des petites pattes, qui sont autant d’entrées et de sorties pour communiquer avec les obkjets qui l’entourent : l’antenne, etc. 
+    4. l’ampli // de type rasperry pi picot
+    5. le switch / l’interrupteur
+    6. le haut parleur
+
+
+
+On essaie. 
+Ça ne fonctionne pas. 
+On vérifie les branchements, et d’abord les piles. Sont-elles dans le bon sens ± ? La partie plate vers les ressorts. 
+Et donc ça fonctionne ! 
+
+On teste quand même le multimètre ! 
+On prend une pile, on allume le multimètre, on positionne sur 20 volts, on cole les deux branches aux deux extrémités de la pile. - 1,58v ; les volts, c’est la différence de potentiel qu’elle peut fournir. Pourquoi on a un - ? Il faut mettre le câble noir sur le – et rouge sur le + et on a alors un nombre positif. Elle est chargé à 1,5v, comme inscrit sur sa surface. Quand on en prend deux, on envoie donc environ 3v. 
+Le rasperry peut canaliser / stocker : il a besoin de 3,3v. 
+[photo]
+
+on fait un film de type tuto ?
+
